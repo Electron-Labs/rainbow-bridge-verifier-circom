@@ -1,11 +1,15 @@
 {
-  "name": "rainbow-bridge-ed25519-circom",
+  "name": "rainbow-bridge-verifier-circom",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "prepare": "cd ed25519-circom && npm i",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Electron-Labs/rainbow-bridge-verifier-circom.git"
   },
   "author": "rahulghangas",
   "license": "UNLICENSED"
