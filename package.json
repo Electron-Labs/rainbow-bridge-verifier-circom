@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "cd ed25519-circom && npm i",
+    "prepare": "git submodule update --init --recursive && cd ed25519-circom && npm i",
     "verifier:build": "mkdir -p build && circom verify50_256.circom --r1cs --c -o build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
