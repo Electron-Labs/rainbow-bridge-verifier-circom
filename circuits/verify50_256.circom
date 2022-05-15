@@ -54,4 +54,4 @@ template Verify50_256() {
   }
 }
 
-component main = Verify50_256();
+component main {public [msg]} = Verify50_256();
